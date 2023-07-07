@@ -1,0 +1,219 @@
+{
+  "users": [
+    {
+      "email": "anil@gmail.com",
+      "password": "password",
+      "firstname": "Anil",
+      "lastname": "Kumar",
+      "id": 1,
+      "type": "admin"
+    },
+    {
+      "email": "anu@gmail.com",
+      "password": "password",
+      "firstname": "Anil",
+      "lastname": "Kumar",
+      "id": 1,
+      "type": "user"
+    },
+    {
+      "email": "priya@gmail.com",
+      "username": "priya",
+      "password": "123456",
+      "type": "user",
+      "id": 2
+    },
+    {
+      "email": "ram@gmail.com",
+      "username": "ramuji",
+      "password": "123456",
+      "type": "admin",
+      "id": 3
+    }
+  ],
+  "list": [
+    {
+      "id": 1,
+      "image": "Gold Ring.jpg",
+      "type": "Rings"
+    },
+    {
+      "id": 2,
+      "image": "Loffers Shoes.jpg",
+      "type": "Shoes"
+    },
+    {
+      "id": 3,
+      "image": "Ladies Cooling Glass.jpg",
+      "type": "Cooling Glasses"
+    },
+    {
+      "id": 4,
+      "image": "Classic Watch.jpg",
+      "type": "Watches"
+    }
+  ],
+  "products": [
+    {
+      "name": "Gold Ring",
+      "description": " Gold Rings for all occasions come in all shapes and sizes.",
+      "image": "Gold Ring.jpg",
+      "id": 1,
+      "type": "Rings"
+    },
+    {
+      "name": "Silver Ring",
+      "description": " Silver Rings for all occasions come in all shapes and sizes",
+      "image": "Silver Ring.jpg",
+      "id": 2,
+      "type": "Rings"
+    },
+    {
+      "name": "Gold With Silver Ring",
+      "description": "Gold With Silver Ring for all occasions come in all shapes and sizes",
+      "image": "Gold With Silver Ring.jpg",
+      "id": 3,
+      "type": "Rings"
+    },
+    {
+      "name": "Cooling Glass",
+      "description": "Sun Glasses are used as eyewear for the protection of the eyes from the bright light and harmful rays of sun",
+      "image": "Cooling Glass.jpg",
+      "id": 4,
+      "type": "Cooling Glasses"
+    },
+    {
+      "name": "Mens Cooling Glass",
+      "description": "Sun Glasses are used as eyewear for the protection of the eyes from the bright light and harmful rays of sun",
+      "image": "Mens Cooling Glass.jpg",
+      "id": 5,
+      "type": "Cooling Glasses"
+    },
+    {
+      "name": "Ladies Cooling Glass",
+      "description": "Sun Glasses are used as eyewear for the protection of the eyes from the bright light and harmful rays of sun",
+      "image": "Ladies Cooling Glass.jpg",
+      "id": 6,
+      "type": "Cooling Glasses"
+    },
+    {
+      "name": "Sports Shoes",
+      "description": "Sports shoes are shoes primarily designed for sports or other forms of physical exercise.",
+      "image": "Sports Shoes.jpg",
+      "id": 7,
+      "type": "Shoes"
+    },
+    {
+      "name": "Office Shoes",
+      "description": " However, if someone is likely to see you at work.",
+      "image": "Office Shoes.jpg",
+      "id": 8,
+      "type": "Shoes"
+    },
+    {
+      "name": "Silver Watch",
+      "description": "A Silver watch is a portable timepiece intended to be carried or worn by a person. ",
+      "image": "Silver Watch.jpg",
+      "id": 9,
+      "type": "Watches"
+    },
+    {
+      "name": "Loffers Shoes",
+      "description": "The construction of loafers was based on the moccasins worn by Native Americans.",
+      "image": "Loffers Shoes.jpg",
+      "id": 10,
+      "type": "Shoes"
+    },
+    {
+      "name": "Kids Shoes",
+      "description": "Shop for kids shoes online from our sites",
+      "image": "Kids Shoes.jpg",
+      "id": 11,
+      "type": "Shoes"
+    },
+    {
+      "name": "Sneakers Shoes",
+      "description": "Sneakers are shoes primarily designed for sports or other forms of physical exercise. ",
+      "image": "Sneakers Shoes.jpg",
+      "id": 12,
+      "type": "Shoes"
+    },
+    {
+      "name": "Gold Watch",
+      "description": "A Gold watch is a portable timepiece intended to be carried or worn by a person.",
+      "image": "Gold Watch.jpg",
+      "id": 13,
+      "type": "Watches"
+    },
+    {
+      "name": "Kids Cooling Glass",
+      "description": "sun Glasses are used as eyewear for the protection of the eyes from the bright light and harmful rays of sun",
+      "image": "Kids Cooling Glass.jpg",
+      "id": 14,
+      "type": "Cooling Glasses"
+    },
+    {
+      "name": "Classic Watch",
+      "description": "A Classic watch is a portable timepiece intended to be carried or worn by a person.",
+      "image": "Classic Watch.jpg",
+      "id": 15,
+      "type": "Watches"
+    },
+    {
+      "name": "Metalic Watch",
+      "description": "A  Metalic watch is a portable timepiece intended to be carried or worn by a person.",
+      "image": "Metalic Watch.jpg",
+      "id": 16,
+      "type": "Watches"
+    },
+    {
+      "name": "Smart Watch",
+      "description": "A  Smart watch is a portable timepiece intended to be carried or worn by a person.",
+      "image": "Smart Watch.jpg",
+      "id": 17,
+      "type": "Watches"
+    }
+  ],
+  "reviews": [
+    {
+      "id": 3632,
+      "name": "Damon",
+      "email": "damon@dde.com",
+      "type": "Gintani F1 Package",
+      "message": "The SVJ is literally screaming lika an F1 car, Loving it"
+    },
+    {
+      "id": 1427,
+      "name": "Ajiram",
+      "email": "ajiram@gmail.com",
+      "type": "Twin-Turbo kits",
+      "message": "Absolute crazy power up...and also bigger flames"
+    },
+    {
+      "id": "1",
+      "name": "navee",
+      "email": "navee@gmail.com",
+      "type": "Merch",
+      "message": "Loving the merch, cool af"
+    }
+  ],
+  "contactus": [
+    {
+      "id": 96655,
+      "fname": "Raja",
+      "lname": "Raja",
+      "email": "Trendzz@gmail.com",
+      "message": "Look Classy with our Products"
+    }
+  ],
+  "fourm": [
+    {
+      "type": "Exhaust System",
+      "message": "Literally screaming good. Looking forward to work again."
+    },
+    {
+      "type": "Widebody kits",
+      "message": "This was an excellent project , The carbon fibre quality is really good."
+    }
+  ]
+}
