@@ -1,0 +1,14 @@
+.example-card{
+    height:240px;
+    width:100%;
+    background-color:rgb(212, 193, 168) ;
+}
+.name{
+    color: black;
+    font-size: medium;
+    font-weight: bold;
+}
+.content{
+padding-left:5px;
+color: rgb(137, 23, 23);
+}

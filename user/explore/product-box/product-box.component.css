@@ -1,0 +1,40 @@
+.service-box{
+    padding-left:10px;
+    background-color: rgba(51, 14, 78, 0.788);
+    float: left;
+    width: 320px;
+    height:300px;
+    box-sizing: border-box;
+    margin:35px;
+    border-radius:9px;
+}
+
+.image-holder{
+    height:60%;
+    width: 90%;
+    border-radius: 6px;
+}
+
+.image-holder img{
+    padding-top:5px;
+    padding:12px;
+    height:110%;
+    width:100%;
+    align-items: cente;
+}
+
+.text{
+    height:15%;
+    width:80%;
+    text-align: center;
+    background-color: rgb(16, 14, 14);
+    text-shadow: 3px  rgb(8, 8, 8);
+    color: rgb(253, 252, 251);
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:15px;
+    padding-top: 5px;
+    margin-top:40px;
+    margin-left:25px;
+    box-sizing: border-box;
+    border-radius: 6px;
+}

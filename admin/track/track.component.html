@@ -1,0 +1,28 @@
+<mat-toolbar class="menu-bar">
+  <img src="http://localhost:8090/arlogo.png" alt="">
+  <span class="title">Trendzz</span>
+  <ul>
+      <li><a routerLink="main">Home</a></li>
+      <li><a routerLink="explore">Add Products</a></li>
+      <li><a routerLink="contactus">Contact Us</a></li>
+      <li><a routerLink="">Logout</a></li>
+    
+  </ul>
+</mat-toolbar>
+<h2>Add New Product</h2>
+
+<form (ngSubmit)="onSubmit()">
+  <div class="form-group">
+    <label for="name">Product Name:</label>
+    <input type="text" class="form-control" id="name" name="name" [(ngModel)]="newProduct.name" required>
+  </div>
+  <div class="form-group">
+    <label for="description">Product Description:</label>
+    <textarea class="form-control" id="description" name="description" [(ngModel)]="newProduct.description" required></textarea>
+  </div>
+  <div class="form-group">
+    <label for="image">Product Image URL:</label>
+    <input type="text" class="form-control" id="image" name="image" [(ngModel)]="newProduct.image" required>
+  </div>
+  <button type="submit" class="btn btn-primary">Add Product</button>
+</form>

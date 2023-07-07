@@ -1,0 +1,18 @@
+<div class="image">
+ 
+    <img src="http://localhost:8090/Cooling Glass.jpg" alt="">
+    <img src="http://localhost:8090/Gold With Silver Ring.jpg" alt="">
+    <img src="http://localhost:8090/Metalic Watch.jpg" alt="">
+    <img src="http://localhost:8090/Kids Shoes.jpg" alt="">
+    <img src="http://localhost:8090/Smart Watch.jpg" alt="">
+</div>
+<div id="corner-arrow-left" appScrollback="100" >
+    <img src="http://localhost:8090/left.png" />
+</div>
+<div id="corner-arrow-right" appScroll="100"  >
+    <img src="http://localhost:8090/right.png" />
+</div>
+<div class="wrap">
+    <!-- <h3>new collection........</h3> -->
+    <app-list *ngFor="let x of servicelist" [list]="x"></app-list>
+</div>

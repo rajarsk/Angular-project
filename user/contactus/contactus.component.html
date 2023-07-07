@@ -1,0 +1,56 @@
+<div class="wraping">
+    <div class="design">
+        <mat-accordion class="mat">
+            <mat-expansion-panel (opened)="panelOpenState = true" (closed)="panelOpenState = false">
+                <mat-expansion-panel-header class="expansion">
+                    <mat-panel-title class="h1">
+                        Contact Us
+                    </mat-panel-title>
+                    <mat-panel-description class="h2">
+                        Want Custom Wear.......Just Update Us
+                    </mat-panel-description>
+                </mat-expansion-panel-header>
+                <div class="dialog">
+                    <div id="form">
+                        <!-- <h1 style="margin-bottom: 50px;">Contact Us</h1> -->
+                        <div style="overflow: hidden;">
+                            <div class="formbox">
+                                <h5>First Name</h5>
+                                <input type="text" [(ngModel)]="fname">*
+                            </div>
+                            <div class="formbox">
+                                <h5>Last Name</h5>
+                                <input type="text" [(ngModel)]="lname">*
+                            </div>
+                            <div class="formbox">
+                                <h5>Email</h5>
+                                <input type="email" [(ngModel)]="email">*
+                            </div>
+                            <!-- <div class="formbox">
+                            <h5>Company</h5>
+                            <input type="text" [(ngModel)]="company">*
+                        </div> -->
+                            <div class="formbox">
+                                <h5>Message</h5>
+                                <textarea [(ngModel)]="message"></textarea>*
+                            </div>
+                        </div>
+                        <div class="alert alert-info" *ngIf="errors.length>0">
+                            <ul>
+                                <li *ngFor="let x of errors">{{x}}</li>
+                            </ul>
+                        </div>
+                        <div style="margin:30px;"><button class="btn-secondary" (click)="submit()">Submit
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </mat-expansion-panel>
+        </mat-accordion>
+    </div>
+    <div class="text-area">
+        Thanks For Your Time <br><br>See You Soon<br><br>
+        Be Youth<br><br>Be Trendy
+    </div>
+    <img src="http://localhost:8090/img8.jpg" class="contimg" alt="">
+</div>

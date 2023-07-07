@@ -1,0 +1,47 @@
+<!-- <mat-accordion class="mat1">
+    <mat-expansion-panel (opened)="panelOpenState = true" (closed)="panelOpenState = false">
+        <mat-expansion-panel-header>
+            <mat-panel-title>
+                grab the suggestions.......
+            </mat-panel-title>
+            <mat-panel-description>
+                Give an eye on the products the go with this styling.......
+            </mat-panel-description>
+        </mat-expansion-panel-header>
+        <app-suggestions></app-suggestions>
+    </mat-expansion-panel>
+</mat-accordion> -->
+<div class="flex">
+    <div class="b">
+        <div class="b1">
+            <h1>{{products.name}}</h1>
+        </div>
+        <!-- <button class="open" (click)="openDialog()">view suggestions</button> -->
+        <a routerLink="suggestions/{{products.id}}">
+            <div class="b2">
+                <img src="http://localhost:8090/{{products.image}}" alt="">
+            </div>
+        </a>
+        <div class="b3">
+            {{products.description}}
+        </div>
+    </div>
+    <div class="view-review">
+        <mat-accordion class="mat">
+            <mat-expansion-panel (opened)="panelOpenState = true" (closed)="panelOpenState = false">
+                <mat-expansion-panel-header>
+                    <mat-panel-title>
+                        View Reviews
+                    </mat-panel-title>
+                    <mat-panel-description>
+                        Bring your eyes to the Reviews
+                    </mat-panel-description>
+                </mat-expansion-panel-header>
+                <app-viewreview></app-viewreview>
+            </mat-expansion-panel>
+        </mat-accordion>
+    </div>
+</div>
+<div class="background-style">
+    <app-review></app-review>
+</div>

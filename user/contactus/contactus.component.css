@@ -1,0 +1,67 @@
+.wraping {
+    background-color:rgb(23, 109, 125);
+    display: flex;
+    padding-left: 10px;
+    height: 100%;
+}
+
+.design {
+    margin-top: 40px;
+    margin-left: 20px;
+    background-color: rgb(114, 112, 112);
+    width: 600px;
+    height: 400px;
+}
+
+.expansion {
+    background-color: rgb(247, 246, 246);
+    ;
+}
+
+.h1 {
+    color: rgb(26, 20, 20);
+    text-decoration: solid;
+
+}
+.h2{
+    color: rgb(14, 8, 8);
+}
+
+.dialog {
+    background-color: rgb(146, 164, 231);
+    width: 100%;
+    height: 400px;
+    margin-right: 5px;
+}
+
+.text-area {
+    background-color: rgb(254, 254, 254);
+    margin-top: 150px;
+    margin-left: 90px;
+    width: 300px;
+    height: 250px;
+    padding-top: 100px;
+    padding-left: 60px;
+    font-size: x-large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color:darkcyan
+}
+
+.formbox,h5{
+    font-size:large;
+    font-weight: bold;
+    padding-top:10px;
+    text-align: center;
+}
+
+.btn-secondary {
+    margin-left:190px;
+    align-items: center;
+}
+.contimg{
+    width: 400px;
+    height: 300px;
+    padding-top: 27%;
+    padding-left: 60px;
+}
